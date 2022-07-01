@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <stdio.h
+#include <stdio.h>
 #include <time.h>
 /* assign random number to the variable n each time excuted based on a given condition
  * and return 0
