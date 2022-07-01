@@ -1,10 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-*assign random number to the variable n 
-*each time excuted based on a given condition and return 0 
-*/
+/* assign random number to the variable */
 int main(void)
 {
 int n;
