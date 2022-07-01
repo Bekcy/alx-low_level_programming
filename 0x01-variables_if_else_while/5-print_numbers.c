@@ -8,14 +8,10 @@
 */
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+int n;
+for (n = 0; n < 10; n++)
 {
-if (ch != 'q' && ch != 'e')
-{
-putchar(ch);
+printf("%d\n", n);
 }
-}
-putchar(10);
 return (0);
 }
