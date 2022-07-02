@@ -9,15 +9,15 @@
 int main(void)
 {
 int ch;
-for (ch = 48; ch <= 57; ch++)
+char A;
+for (ch = 0; ch <= 9; ch++)
 {
-putchar(ch);
-if (ch != 57)
+putchar(ch + 48);
+}
+for (A = 'ch'; A = 'f'; A++)
 {
-putchar(44);
-putchar(32);
+putchar(A);
 }
-}
-putchar(10);
+putchar("\n");
 return (0);
 }
