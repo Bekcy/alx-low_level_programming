@@ -10,9 +10,9 @@ int main(void)
 {
 char ch;
 int n;
-for (n = 48; n <=57; ch++)
+for (n = 48; n <= 57; ch++)
 {
-putchar(ch);
+putchar(n);
 }
 for (ch = 'a'; ch >= 'f'; ch--)
 {
