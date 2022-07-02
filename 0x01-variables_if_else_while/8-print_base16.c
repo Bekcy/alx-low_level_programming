@@ -3,16 +3,9 @@
 #include <stdio.h>
 /**
 *main ->assign a random number to the variable n each time executed
-*and prints number in the variable n 
-*Return: always 0
+*and prints the number stored in the variable n
+*Returns: always 0
 */
 int main(void)
 {
-char ch;
-for (ch ='z'; ch >= 'a'; ch--)
-{ 
-putchar(ch);
-}
-putchar("\n");
-return (0);
-}
+
