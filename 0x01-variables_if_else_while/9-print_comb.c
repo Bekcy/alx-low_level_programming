@@ -1,23 +1,23 @@
 #include <stdlib.h>
-#include <time.h>
+#include <time.h>                                               
 #include <stdio.h>
-/**
-*main ->asiign a random number to the variable n each time executed
-*and prints the number stored in n
-*Return: always 0
+/**                                               
+*main ->assign a random number to the variable n each time executed                                                               
+*and prints the number stored in the variable n
+*Return: always 0                                         
 */
 int main(void)
 {
 int ch;
-char A;
-for (ch = 0; ch <= 9; ch++)
+for (ch = 48; ch <= 57; ch++)
 {
-putchar(ch + 48);
-}
-for (A = 'ch'; A = 'f'; A++)
+putchar(ch);
+if (ch != 57)
 {
-putchar(A);
+putchar(44);
+putchar(32);
 }
-putchar("\n");
+}
+putchar(10);
 return (0);
 }
