@@ -4,12 +4,11 @@
 *@n:the passed args
 *Return:the last digit
 */
-int print_last_digit(int n)
+int print_last_digit(int)
 {
-int x;
+int ln = n % 10;
 if (n < 0)
-n= -n;
-x = n % 10;
-_putchar(x + '0');
-return (n % 10);
+ln = ln* - 1;
+_putchar(ln + '0');
+return (ln);
 }
