@@ -5,19 +5,24 @@
 */
 void fizz_buzz(void)
 {
-int x;
-for (x = 1; x <= 100; x++)
+int p = 0;
+int i;
+i = 1;
+while (i <= p)
 {
-if (x == 100)
-printf("Buzz ");
-else if (x % 3 == 0 && x % 5 == 0)
-pritnf("FizzBuzz ");
-else if (x % 3 == 0)
-printf("Fizz ");
+if (i % 3 == 0 && i % 5 == 0)
+printf("FizzBuzz ");
+else if (i % 3 == 0)
+pritnf("Fizz ");
 else if (x % 5 == 0)
+{
+if (i < p)
 printf("Buzz ");
 else
-printf("%d ", x);
+printf("Buzz ");
 }
+else
 printf("\n");
+return (0);
+}
 }
